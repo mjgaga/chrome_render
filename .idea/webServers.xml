@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="81d36793-4068-479b-803d-677e448ed96f" name="ubuntu(10.4.12.117)" url="http://10.4.12.117">
+        <fileTransfer host="10.4.12.117" port="22" rootFolder="/home/chenfei/chrome_render" accessType="SFTP" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,5 @@
+xvfb-run -a -l --server-args='-screen 0, 1280x720x24' google-chrome -start-maximized  http://www.kktv5.com > /dev/null &
+xvfb-run -n=1  -l --server-args='-screen 0, 1280x720x24' google-chrome -start-maximized  http://www.douyu.com > /dev/null &
+
+Xvfb :screen-num -screen 0 1280x720x24 &
+XAUTHORITY=/tmp/xvfb-run.Wzmobq/Xauthority x11vnc -listen 0.0.0.0 -rfbport 5900 -noipv6 -passwd 123456 -display :2
